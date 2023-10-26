@@ -8,9 +8,11 @@ clc
 
 usedir = pathstr;
 
-[pathstr2,name,ext] = fileparts(usedir)
+%[pathstr2,name,ext] = fileparts(usedir)
 
-maindir = [pathstr2 '/istart/UGDG']
+maindir = [usedir '/bids/sourcedata/UGDG/'];
+
+
     
 % This is the final bids converter used.
 
