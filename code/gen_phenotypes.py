@@ -80,7 +80,10 @@ def convert_to_tsv(input_path, output_path):
     for filename in os.listdir(input_path):
         if filename.endswith('.txt'):
             txt_file_path = os.path.join(input_path, filename)
-            tsv_file_path = os.path.join(output_path, filename.replace('.txt', '.tsv'))
+            if filename == "participants.txt":
+                tsv_file_path = os.path.join(bids_directory, 'participants.tsv', )
+            else:
+                tsv_file_path = os.path.join(output_path, filename.replace('.txt', '.tsv'))
 
             df = pd.read_csv(txt_file_path, sep='\t', na_values=["n/a"])
             df.to_csv(tsv_file_path, sep='\t', index=False, na_rep="n/a")
@@ -92,7 +95,7 @@ def convert_to_tsv(input_path, output_path):
 if __name__ == "__main__":
 
     # Relative path to the usable_subs file
-    code_directory = os.getcwd()
+    code_directory = os.path.dirname(os.path.abspath(__file__))
     parent_directory = os.path.dirname(code_directory)
     usable_subs = read_usable_subs(os.path.join(code_directory, 'usable_subs.txt'))
 
@@ -100,6 +103,7 @@ if __name__ == "__main__":
     # if statement will delete overwrite existing files if you need to run script again
     input_path = os.path.join(parent_directory, 'bids/sourcedata/redcap/')
     output_path = os.path.join(parent_directory, 'bids/phenotypes/')
+    bids_directory = os.path.join(parent_directory, 'bids/' )
     if os.path.exists(output_path):
         try:
             shutil.rmtree(output_path)
