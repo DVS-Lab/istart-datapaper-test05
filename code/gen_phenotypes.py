@@ -52,9 +52,9 @@ def format_first_column(filename):
     with open(filename, 'w') as infile:
         infile.write(header)
         infile.writelines(lines[1:])
-    
 
-# Iterate through the .tsv that were generated to elimante unwanted subs and apply BIDS formatting
+
+# Iterate through the .tsv that were generated to eliminate unwanted subs and apply BIDS formatting
 def process_files(folder_path, usable_subs):
     for filename in os.listdir(folder_path):
         if filename.endswith('.tsv'):
@@ -75,7 +75,6 @@ def process_files(folder_path, usable_subs):
 
 
 # File converts all .txt files that exist in /sourcedata/redcap for processing defined above
-# Todo: figure out why the script breaks if I put this about the process_files function 
 def convert_to_tsv(input_path, output_path):
     for filename in os.listdir(input_path):
         if filename.endswith('.txt'):
@@ -90,10 +89,8 @@ def convert_to_tsv(input_path, output_path):
 
             print(f"Converted: {txt_file_path} to {tsv_file_path}")
 
-
 # Specify paths and call functions
 if __name__ == "__main__":
-
     # Relative path to the usable_subs file
     code_directory = os.path.dirname(os.path.abspath(__file__))
     parent_directory = os.path.dirname(code_directory)
@@ -104,16 +101,19 @@ if __name__ == "__main__":
     # if statement will delete overwrite existing files if you need to run script again
     input_path = os.path.join(parent_directory, 'bids/sourcedata/redcap/')
     output_path = os.path.join(parent_directory, 'bids/phenotypes/')
+    
+    # Check if output path exists and only delete non-.json files
     if os.path.exists(output_path):
-        try:
-            shutil.rmtree(output_path)
-        except Exception as e:
-            print(f"Error deleting the directory: {e}")
+        for filename in os.listdir(output_path):
+            if not filename.endswith('.json'):
+                file_path = os.path.join(output_path, filename)
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
 
-# Recreate the directory or create a new one.
-os.makedirs(output_path)
+    # Recreate the directory or create a new one
+    os.makedirs(output_path, exist_ok=True)
 
-# Run functions to convert and process files
-convert_to_tsv(input_path, output_path)
-process_files(output_path, usable_subs)
-process_files(bids_directory, usable_subs)
+    # Run functions to convert and process files
+    convert_to_tsv(input_path, output_path)
+    process_files(output_path, usable_subs)
+    process_files(bids_directory, usable_subs)
