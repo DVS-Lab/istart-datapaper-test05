@@ -9,8 +9,8 @@ from natsort import natsorted
 import re
 
 #Make a list of the files
-Mat_Beh_dir='/ZPOOL/data/projects/istart-datapaper-test05/bids/sourcedata'
-#Mat_Beh_dir='/Users/jameswyngaarden/Documents/Github/istart-datapaper-test05/bids/sourcedata'
+#Mat_Beh_dir='/ZPOOL/data/projects/istart-datapaper-test05/bids/sourcedata'
+Mat_Beh_dir='/Users/jameswyngaarden/Documents/Github/istart-datapaper-test05/bids/sourcedata'
 ML_EvFiles_list=natsorted([os.path.join(root,f) for root,dirs,files in os.walk(
     Mat_Beh_dir) for f in files if 'output.mat' in f])
 
