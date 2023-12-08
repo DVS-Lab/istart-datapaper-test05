@@ -5,7 +5,7 @@ clear; close all;
 usedir = pathstr;
 [pathstr2,name,ext] = fileparts(usedir);
 
-maindir = [pathstr2 '/istart-datapaper-test04/bids/sourcedata/'];
+maindir = [pathstr2 '/istart-datapaper-test05/bids/sourcedata/'];
 cd ../bids/
 outputdir = pwd;
 cd ../code/
@@ -35,7 +35,7 @@ for s = 1:length(subs)
         end
     
         % set file names and load in source data
-        inputname = fullfile([maindir, num2str(subs(s)) '/sub-' num2str(subs(s)) '_task-' bidstask '_run-1_events.tsv']);
+        inputname = fullfile([maindir, '/sub-' num2str(subs(s)) '/sub-' num2str(subs(s)) '_task-' bidstask '_run-1_events.tsv']);
         outputname = fullfile([outputdir '/sub-' num2str(subs(s)) '/func/sub-' num2str(subs(s)) '_task-' bidstask '_run-1_events.tsv']);
         
         % confirm file exists & rename file
@@ -43,7 +43,8 @@ for s = 1:length(subs)
             T = readtable(inputname,'FileType','delimitedtext');
     
             % replace NaN with proper BIDS naming
-            %T.rt(isnan(T.rt)) = 'n/a'
+
+            T(isnan(T)) =  "n/a"
     
             writetable(T,outputname,'FileType','text','Delimiter','\t') 
         else

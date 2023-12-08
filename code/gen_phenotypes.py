@@ -4,14 +4,14 @@ import pandas as pd
 import csv
 
 
-# Read in usable_subs.txt and generate a list of sub-##### to be used for file filtering
+# Read in sublist-all.txt and generate a list of sub-##### to be used for file filtering
 def read_usable_subs(filename):
     with open(filename, 'r') as file:
         usable_subs = [line.strip() for line in file]
     return usable_subs
 
 
-# Eliminate any sub-##### that aren't specified in usable_subs.txt
+# Eliminate any sub-##### that aren't specified in sublist-all.txt
 def eliminate_subs(filename, usable_subs):
     with open(filename, 'r') as file:
         lines = file.readlines()
@@ -95,12 +95,12 @@ if __name__ == "__main__":
     code_directory = os.path.dirname(os.path.abspath(__file__))
     parent_directory = os.path.dirname(code_directory)
     bids_directory = os.path.join(parent_directory, 'bids')
-    usable_subs = read_usable_subs(os.path.join(code_directory, 'usable_subs.txt'))
+    usable_subs = read_usable_subs(os.path.join(code_directory, 'sublist-all.txt'))
 
     # Relative path to the input and output directories
     # if statement will delete overwrite existing files if you need to run script again
     input_path = os.path.join(parent_directory, 'bids/sourcedata/redcap/')
-    output_path = os.path.join(parent_directory, 'bids/phenotypes/')
+    output_path = os.path.join(parent_directory, 'bids/phenotype/')
     
     # Check if output path exists and only delete non-.json files
     if os.path.exists(output_path):

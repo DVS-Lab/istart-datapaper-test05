@@ -1,5 +1,6 @@
 ID	quic_adult_cj_1	quic_adult_cj_2	quic_adult_cj_3	quic_adult_cj_4	quic_adult_cj_5	quic_adult_cj_6	quic_adult_cj_7	quic_adult_cj_8	quic_adult_cj_9	quic_adult_cj_10	quic_adult_cj_11	quic_adult_cj_12	quic_adult_cj_13	quic_adult_cj_14	quic_adult_cj_15	quic_adult_cj_16	quic_adult_cj_17	quic_adult_cj_18	quic_adult_cj_19	quic_adult_cj_20	quic_adult_cj_21	quic_adult_cj_22	quic_adult_cj_23	quic_adult_cj_24	quic_adult_cj_25	quic_adult_cj_26	quic_adult_cj_27	quic_adult_cj_28	quic_adult_cj_29	quic_adult_cj_30	quic_adult_cj_31	quic_adult_cj_32	quic_adult_cj_33	quic_adult_cj_34	quic_adult_cj_35	quic_adult_cj_36	quic_adult_cj_37	quic_adult_cj_38
 1001	1	0	1	1	1	0	1	1	1	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+1002	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1003	1	0	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	1	0	1	0	0
 1004	1	1	1	1	1	1	1	1	1	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	1	0	0
 1006	1	0	1	1	1	0	1	1	1	1	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	1	0	0
@@ -9,6 +10,9 @@ ID	quic_adult_cj_1	quic_adult_cj_2	quic_adult_cj_3	quic_adult_cj_4	quic_adult_cj
 1011	1	0	1	1	1	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	1	0	0
 1012	1	0	1	1	1	1	1	1	1	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
 1013	1	0	0	1	1	1	1	1	1	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+1015	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1016	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1019	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1021	1	0	1	0	1	1	1	1	1	1	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0
 1240	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1242	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
@@ -20,6 +24,7 @@ ID	quic_adult_cj_1	quic_adult_cj_2	quic_adult_cj_3	quic_adult_cj_4	quic_adult_cj
 1249	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1251	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1253	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+1255	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1276	1	1	0	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	0	0	0	1	1	0	0	0	1	1	1	1	1	1	1	0	1	0
 1282	0	0	1	1	1	1	1	1	1	1	0	0	0	0	1	0	1	0	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0	1	1	1	0	1
 1286	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
@@ -28,6 +33,7 @@ ID	quic_adult_cj_1	quic_adult_cj_2	quic_adult_cj_3	quic_adult_cj_4	quic_adult_cj
 1301	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 1302	0	1	0	0	0	0	0	1	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	0	0
 1303	1	0	1	1	1	1	1	1	1	1	1	0	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	0
+3101	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 3116	1	1	1	1	1	1	1	1	1	1	0	0	0	1	1	1	1	1	1	0	0	1	0	1	0	0	0	0	1	0	1	1	0	0	1	1	0	0
 3122	1	1	1	0	1	0	1	1	1	1	1	0	0	0	1	0	1	0	0	1	0	1	1	1	0	1	0	1	0	0	1	0	0	1	1	1	0	1
 3125	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a

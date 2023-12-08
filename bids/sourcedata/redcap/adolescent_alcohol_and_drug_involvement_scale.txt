@@ -61,4 +61,3 @@ ID	aadis_q1	aadis_q2	aadis_q3	aadis_q4	aadis_q5	aadis_q6	aadis_q7	aadis_q8	aadis
 3218	6	1	6	0	1	0	0	0	0	0	0	0	0
 3220	1	3	1	0	0	0	0	0	0	0	0	0	0
 3223	0	0	0	0	0	0	0	0	0	0	0	0	0
-													

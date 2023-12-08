@@ -61,4 +61,3 @@ ID	score_susd_q1	score_susd_q2	score_susd_q3	score_susd_q4	score_susd_q5	score_s
 3218	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 3220	0	1	1	0	1	0	0	0	1	0	0	0	0	0
 3223	0	0	0	0	1	0	1	1	1	1	1	0	1	0
-														

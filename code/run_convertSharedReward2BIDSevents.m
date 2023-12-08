@@ -15,7 +15,7 @@ cd ..
 % directory as istart-data
 projectdir = pwd;
 sharedrewarddir = fullfile(projectdir,'istart-datapaper-test05','code');
-sublist = load(fullfile(sharedrewarddir,'usable_subs.txt'));
+sublist = load(fullfile(sharedrewarddir,'sublist-all.txt'));
 
 
 outdata = zeros(length(sublist),5);

@@ -6,10 +6,10 @@ basedir="$(dirname "$scriptdir")"
 
 task=mid
 
-for sub in `cat ${scriptdir}/newsubs.txt`;
+for sub in `cat ${scriptdir}/newsubs.txt`; do
 	if [ "${task}" == "socialdoors" ]; then	
-		cp -r /ZPOOL/data/projects/istart/social_reward_c/data/${sub}/ /ZPOOL/data/projects/istart-datapaper-test04/bids/sourcedata/sub-${sub} 
+		cp -r /ZPOOL/data/projects/istart/social_reward_c/data/${sub}/ /ZPOOL/data/projects/istart-datapaper-test05/bids/sourcedata/sub-${sub} 
 	elif [ "${task}" == "mid" ]; then	
-		cp -r /ZPOOL/data/projects/istart/Monetary_Incentive/data/sub-${sub}/* /ZPOOL/data/projects/istart-datapaper-test04/bids/sourcedata/sub-${sub} 
+		cp -r /ZPOOL/data/projects/istart/Monetary_Incentive/data/sub-${sub}/* /ZPOOL/data/projects/istart-datapaper-test05/bids/sourcedata/sub-${sub} 
 	fi
 done
